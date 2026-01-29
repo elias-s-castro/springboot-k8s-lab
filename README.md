@@ -2,6 +2,8 @@
 
 Projeto de estudo
 
+O foco é **entendimento real dos conceitos**, não apenas execução mecânica de comandos.
+
 ## 🎯 Objetivo do Projeto
 
 - Criar uma aplicação Spring Boot simples
@@ -104,12 +106,12 @@ docker run -p 8080:8080 springboot-k8s-lab:1.0
 - Criação de imagem Docker
 - Execução de aplicação Java dentro de container
 - Exposição de portas e mapeamento host → container
+- Otimização do Dockerfile (multi-stage build)
 
 ---
 
 ## 🔜 Próximos Passos
 
-- Otimização do Dockerfile (multi-stage build)
 - Redução do tamanho da imagem
 - Introdução ao Kubernetes
     - Deployment
